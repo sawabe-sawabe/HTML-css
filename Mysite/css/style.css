@@ -54,6 +54,7 @@ nav > :first-child {
 
 .main_top {
   background-color: #eceff1;
+  padding-bottom: 90px;
 }
 .Portfolio {
   margin: 0 auto;
@@ -82,7 +83,6 @@ nav > :first-child {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 90px;
 }
 .box {
   margin-bottom: 10px;
@@ -102,12 +102,10 @@ nav > :first-child {
 .Feature {
   width: 980px;
   margin: 0 auto;
-  background-color: ;
 }
 
 .Strengths {
   display: flex;
-  justify-content: center;
   padding-bottom: 90px;
 }
 .Strength {
@@ -117,14 +115,12 @@ nav > :first-child {
 .Strength:nth-child(3) {
   margin: 0;
 }
-.size {
-  font-size: 60px;
-}
-span {
-  display: inline-block;
-  width: 100%;
+
+.icon {
   font-size: 60px;
   text-align: center;
+  height: 75px;
+  line-height: 60px;
 }
 .title2 {
   padding: 10px 0;
@@ -133,15 +129,20 @@ span {
   text-align: center;
   font-weight: bold;
 }
+.text {
+  font-size: 16px;
+  margin-top: 0;
+}
 .Profile {
   width: 1024px;
   margin: 0 auto;
 }
-
+.Introduction {
+  display: flex;
+}
 .picture {
   width: 512px;
   text-align: center;
-  display: inline-block;
 }
 .picture img {
   width: 250px;
@@ -152,5 +153,59 @@ span {
 
 .name-skill {
   width: 512px;
+}
+
+.my {
+  font-size: 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+.my-text {
+  font-size: 16px;
+  color: #000;
+  padding-bottom: 20px;
+}
+.Contact {
+  margin: 0 auto;
+  width: 800px;
+  padding-bottom: 90px;
+}
+.info {
+  display: flex;
+}
+
+.my-info {
+  width: 400px;
+  text-align: center;
+}
+
+.my-link {
   display: inline-block;
+  text-align: left;
+}
+
+.sns {
+  width: 400px;
+  text-align: center;
+}
+.sns-link {
+  display: inline-block;
+  text-align: left;
+}
+
+span {
+  display: inline-block;
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+footer {
+  background-color: #ec715f;
+  height: 60px;
+}
+.Copyright {
+  line-height: 60px;
+  text-align: center;
+  color: #fafafa;
+  font-size: 16px;
 }
